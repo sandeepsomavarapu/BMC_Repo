@@ -1,0 +1,933 @@
+
+
+
+
+
+
+
+
+		GMAIL
+		
+		3 layers
+		
+UI Layer 						Business layer 					DataBase layer 
+
+login								JAVA,python,.net...				Mysql,oracle,db2,postgres.....
+	uname																
+	pass
+
+		submit
+
+
+HTML,css,js,ts,angular,bs,react....
+
+
+
+
+UI/UX
+
+User Interface / User Experience 
+
+
+			gmail
+			-->server -->URL's  www.gmail.com
+
+		webapplication-->web pages 
+							
+								-->static 	-->facebook login  HTML
+								
+								-->dynamic  -->facebook homepage 
+	
+
+
+UI -->graphical layout  of an application
+
+
+UX --->
+
+
+
+
+
+RWD-->
+
+
+UI
+
+
+Minimize Actions:the steps for screen
+
+
+Useful Feedback
+
+clarity
+
+consistent
+
+simplicity
+
+
+Persona:
+=======
+
+
+
+WireFraming:
+============		Eclipse -->IDE 
+
+
+
+
+					Design --->login
+
+							JS
+							
+		Angular	=>HTML+CSS+TS
+		
+		web applications--->web pages
+
+HTML:static web pages
+
+
+			index.html
+
+		<>
+		
+		</>		
+
+
+html    -->browser  engine  v8 -->DOM
+IE 	    -->chakra
+MOzilla -->spider monkey
+
+
+	html-->display the data
+
+HTML - 5
+
+HTML-->static web pages
+
+CSS3:	
+====
+		1)inline css   -->open tag   style
+		
+		2)internal css -->
+		
+		3)extrenal css
+		
+		
+		
+		syntax:
+		
+				selector{propname:propvalue;propname:propvalue.....}
+
+		
+Selector:
+		
+		1)id selector	#
+		2)class selector  .
+		3)element selector
+		4)group slector
+		5)all selector  *
+
+
+Javascript:
+===========
+Angular javascript framework 
+
+		JS -->we can make dynamic pages 
+		js-->front end validations  
+
+		we can change HTML content 
+		we can change style of the html page 
+
+
+	internal 		<script>......</script>
+	external 		myjscript.js
+
+					angular.js -->google
+					
+					
+			int a=123; static typed programming
+			
+			var name="BMC"		dynamic typed programming
+					
+					function displayMessage()
+					{
+					document.write("welcome to javascript");
+					console.log("welcome to javascript");
+					alert("welcome to javascript")
+					}
+					
+					local variable
+					
+					global variable
+					
+					Node.js
+					
+			nodejs		
+					
+					http
+					user defined modules
+					fs
+					
+Select your profile icon in the upper-right corner of Gmail, then select Manage Google Account.
+
+Select Security in the left sidebar.
+
+Select App passwords under the Signing into Google section. You're then asked to confirm your Gmail login credentials.
+
+Under Select app, choose Mail or Other (Custom name), then select a device.
+
+Select Generate.
+
+Your password appears in a new window. Follow the on-screen instructions to complete the process, then select Done.		
+
+
+
+
+ng new projectname
+
+	CL
+I
+	ng serve -o --port=2333  
+
+
+	components
+		
+		ng generate component login	 --skip-tests true	html,css,ts,spec.ts		@Component
+
+			app.module.ts		@NgModule
+
+
+
+			child in parent component
+			
+		Services:
+making call restfulapi getting the data sharing data across all the component subscribe to it 		
+			
+				code reusability
+			
+			
+		how to create service 
+
+		how to subscribe service response 
+		
+		how to handle errors
+		
+		
+					ng g c cname
+					ng g s sname
+					ng g p pipename
+			pipe-->uppercase,lowercase,currency,date,....predefined pipes
+														 user defined pipe
+			
+			
+					order    
+					
+					JSON-->Service @Injectable
+									@Component 
+									@NgModule
+									
+					components,directives,pipes,Routing,forms(template,model),data binding,services			
+					
+						restful api <--->HttpClient
+						
+							
+	@Input @Output,eventemitter  emit
+
+		components
+					root component -->app
+						
+		
+		HTTP :stateless
+		
+		cookies
+		
+		
+		authguards
+					
+		@Input			
+					
+			app								child
+		@Input			
+		name:string="BMC"			
+					
+					
+				child to parent @output EventEmitter	
+				
+				
+	Guards:
+=============
+Route Guards are interfaces
+				
+				
+				BOOLEAN
+				
+					Authentication / Authorization
+				
+				
+		CanActivate			:Checks to see if a user can visit a route
+		
+		CanActivateChild    :Checks to see if a user can visit a routes childern 			task 
+		
+		CanDeactivate		:Checks to see if a user can exit a route	
+		
+		Resolve				:perform route data retrieval before route activiation
+		
+		CanLoad				:checks to see if a user can route to a module that is lazy loaded
+				
+				
+				
+				
+				
+					ng g g auth
+				
+				
+				
+				Source Code Management tool(SCM)
+				
+				
+				
+				
+				
+				GIT-->linus torvalds in 2005	DVCS
+				
+				SVN-->							CVCS
+				
+				
+				
+				remote copy					server
+				
+				.java					local machine
+				
+				//
+				
+				github
+				
+				bitbucket
+				
+				git lab
+				
+				
+	JAVA:
+===========
+	Language:it is for communication with humans
+	
+	Programming langugaes:
+	=======================
+			it is for communicating with machines
+			
+			POP							OOP
+	B,BCPL,COBOL,C.....     		C++,JAVA,PYTHON,.NET....
+	
+		
+				1)PERFORMANCE				INHERITANCE,POLYMORPHISAM	
+				2)SECURITY					ABSTRACTION,ENCAPSULATION
+
+
+		OOPS/OOPL
+		
+				JAVA -->OOPL
+
+			JAVA:
+			======
+					1)PLATFORM INDEPENDENT 		:WORA  
+					2)GARBAGE COLLECTION
+	
+
+		JAVA-->JDK-->JAMES GOSLING SUN MICRO SYSTEM
+
+			JDK BETA 1995
+			JDK 1.0
+			
+			JDK17
+			JDK18
+
+			ORACLE CORPORATION
+
+
+
+			HelloWorld.java
+compailation:
+	process of converting .java/user language/source to .class/machine language/byte code
+	
+
+			      compilation			    Execution
+		.java ------------------->.class --------------->output..
+				   compiler			 		 JVM
+
+			  javac filename.java			java classname
+
+
+Identifiers:
+===========
+			
+				HelloWorld
+			
+			
+			
+			
+
+Variables:
+==========
+
+			variable is a name of storage location
+	
+		local		with in the method
+		
+		global 		with in the class outside the method
+	
+		sytax:
+		------
+				datatype varname=value;
+				datatype varname;
+				varname=value;
+				
+				
+					int age =29 ;4 bytes
+					byte age=29; 1 byte
+
+Datatypes:
+==========		
+		
+					8 PDT
+					
+					byte
+					short
+					int 
+					long
+					
+					float	 12.3232323232323
+					double  12.3232323232323
+				
+				
+			Applications:
+
+					JAVA
+			JSE    	JEE    JME
+
+1)standalone			    JSE:Corejava,awt,swings,applets  Ex:notepadd++,eclipse,vscode....
+
+2)web applications			URL: JEE:servlets,jsp,spring  Ex: gmail,fb,insta....
+
+3)distributed 				webservice,rest api
+
+4)mobile 					android
+
+
+
+
+Package :
+=========
+java.lang
+java.util.
+
+predefined 
+user defined 
+
+
+Instance  & Static :
+====================
+
+
+		local		with in the method
+		
+		global 		with in the class outside the method
+
+	instance & static Variables:
+	
+	
+	
+	syntax
+				 static float salary=23.4f;//4
+						double marks=23.567;//8
+
+	memory
+			static variable will get memory space only once at the time of class loading into jvm
+			instance variable will get memory space for every object creation
+			CLASS ->DATA MEMBERS+MEMBER FUNCTIONS
+	
+	access
+			STATIC CAN BE ACCESSED BY USING  CLASS NAME 
+			INSTANCE CAN BE ACCESSED BY USING OBJECT REFERECNCE
+			
+	
+	
+	when to use 
+			for common properties static 
+			for unique properties instance
+
+
+
+
+Method:
+-------
+
+	accessmodifier returntype methodname(params list)//method signature
+	{
+	//method body
+	
+	}
+
+class Bmc
+{
+	static String name="sandeep";
+
+
+
+}
+
+Bmc.name.length()
+
+class System
+{
+	static PrintStream out="sandeep";
+
+
+
+}
+
+System.out.println("");
+
+			
+				
+OOP'S FEATURES:				
+				
+				
+				1)INHERITANCE,POLYMORPHISAM	
+				2)ABSTRACTION,ENCAPSULATION
+				
+				
+	INHERITANCE:-PERFORMANCE
+	============	
+					CODE REUSABILITY
+				
+				
+				
+			extends,implements	
+				
+				
+				class ---->class ---->extends
+				interface--->class-->implements
+				interface --->interface-->extends
+				
+				
+				
+	class Parent
+		{
+		//100 methods
+		//20 variables
+		}	
+	class Child extends Parent
+	{
+	//25 methods
+
+		}	
+				
+		abstract method ,concrete method		
+				
+				
+				
+				
+			public abstract void add();	
+				
+				public  void sub(){
+				
+				
+				
+				};
+				
+		class:its collection of only concrete methods
+		abstract class:its collection of both concrete+abstract methods
+		interface:its collection of only abstract methods
+		
+Multiple Inheritance:
+===================
+	MI not supported by java @class level
+	MI  supported by java @interface level
+	
+				
+				
+		interface Parent        interface Parent1	
+		{						{		
+			m1();				m1();
+		
+				
+				
+		}						}			
+		
+		
+		class Child implements Parent,Parent1
+		{
+		main()
+		{
+		Child child=new Child();
+		child.m1();
+		
+		}
+		m1()
+		{
+		sop("welcome")
+		}
+		}
+		
+Polymorphisam:
+=============
+method overloading 
+method overriding
+
+
+
+method overloading
+--------------------
+method name is same signature is different
+				no of params
+				order of params
+				type of params
+
+
+	class Calculator
+	{
+	public void add(float a,float b){
+	Sop("add of two int's "+(a+b))
+	}
+	public void add(int a,int b){
+	Sop("add of two int's "+(a+b))
+	}
+	public void add(int a,int b,int c){
+	Sop("add of three int's "+(a+b+c))
+	}
+	public void add(int a,float b){
+	Sop("add of two int's "+(a+b))
+	}
+	
+		public void add(float a,int b){
+	Sop("add of two int's "+(a+b))
+	}
+	
+	}
+
+
+
+
+method overriding
+--------------------
+method name is same implementation is different
+			
+
+	this,super,,public,private,protected,default,constructor,encapsulation
+	
+	
+	
+	final:
+	======
+		before variable
+		before method
+		before class
+		
+	
+	
+	this
+				
+	
+	super
+	
+	
+	String:
+	=======
+	"asdasdasdasd"			java.lang
+	
+	String			,StringBuffer,StringBuilder
+	
+	Immuttable				muttable
+	
+	
+	
+	Exception Handling:
+	===================
+	
+	
+	
+	
+	
+	
+	Collections:		Framework
+	============	
+	
+	   String name="bmc";
+	   name="capgemini";
+	   
+	   
+	   String names[]={"bmc","cg","cts",......}
+	
+
+Limitations With Array's
+
+
+		1)Array's are fixed in size  or not growable in nature 
+		
+		2)Homogeneous data allowed 
+		
+		3)no utility methods
+		
+	Adv with Collections:
+=========================	
+		1)collections's are not fixed in size  or  growable in nature 
+		
+		2)Homogeneous & haterozeneous data allowed 
+		
+		3)utility methods
+			
+		
+		AL--->10 -->11 -->16-->(cc*3/2)+1
+		
+		Database :
+		==============
+		
+		SQL
+		
+		DDL -->create,alter,drop,truncate,rename
+		DML -->insert ,update,delete
+		DRL--->select
+		DCL-->grant,revoke
+		TCL-->commit,rollback,savepoint
+		
+		
+		
+		db:table=rows+columns
+		
+		123 sandeep 9000 hyderabad
+		
+		create table employees(eid int,ename varchar(10),esal int,eadd varchar(10));
+		
+		
+	Constraiants:
+	============
+		
+		
+		
+		JDBC:
+		=====
+		API 
+		
+		java---->database 
+		
+			driver
+			1)jdbc-odbc driver
+			2)network protocol driver
+			3)native api driver
+			4)thin / java driver
+
+ojdbc
+mysqlconnector
+		5 steps
+		
+		class Register
+		{
+		main(){
+		
+		//load the driver class 
+		
+		
+		//create the  connection
+		
+		//create the statement
+		
+		//execute  query
+		
+		//close the connection
+
+			}
+		}
+		
+JPA hibernate 		
+
+
+		JDBC
+		Db depenedent querys
+		CHecked exceptions
+		create tables
+		no cache
+		
+
+		JPA -->JAVA Persistence API
+		No querys
+		cache support
+		unchecked 
+		no table creation
+
+
+			JPA
+ORM tools-->hibernate,eclipse link,tolink,ibatis....			
+
+
+		JPA-->HIbernate
+		mysqlconect
+		jars 
+		
+	@Entity
+@Table("few are onthe way to sleep")	
+	class Product 
+		{
+		@Id
+		@Column("pid")
+		productId
+		productName
+		...
+		
+		}
+		
+		
+		
+		
+		
+		persistence.xml
+		<persistence>
+		
+		
+		4 db properties 
+		
+		
+		3 hibernate 
+		
+		main
+		{
+		//insert-->persist(),update-->merge(),delete-->remove(),select-->find()
+		}
+		
+	Spring Boot
+		spring 4.x	
+		
+			1)Autoconfiguration
+			2)Embeded server /internal server 
+			3)Starters
+			4)Actuators insite/internals
+			
+		
+Spring Framework:
+================			
+		
+		
+	
+spring is a non-invasive framework using we can create light weight and loosley coupled applications
+
+
+		struts
+		invasive :
+
+		non- invasive 	
+		
+			hibernate,spring
+
+
+
+
+			web application
+
+Servlet
+
+	1)implement Servlet 5
+
+	2)extends GenericServlet
+	
+	3)extends HttpServlet  11
+
+
+	
+	1->11
+	100*11-->1100
+	
+	
+	EJB--->ROD JOHNSON
+	
+	spring-->interface21
+	
+	2003
+	spring 1.x
+	spring 4.x --->springboot
+	spring 5.x
+	
+	
+	POJO
+	
+	loosley coupled & tightly coupled
+	
+	
+	tightly coupled			loosley coupled
+	hibernate and 			spring
+	
+	
+	
+	
+	class A
+	{
+	
+	m3()
+	{
+	
+	
+	}
+	
+	}
+	
+	
+	class B
+	{
+	
+	m1(){
+	A a=new A();
+	a.m2();
+	}
+	
+	}
+	
+	20+
+	
+	spring core 
+	spring jdbc
+	spring jpa/orm
+	spring web
+	spring rest
+	spring aop
+	
+	spring boot
+	
+	spring core:
+	============
+	dependency  injection
+	
+	
+	
+	spring container 
+	
+			1)BeanFactory         	lazy intializer 
+			2)ApplicationContext	eager intializer
+	
+	
+		object life cycle
+		
+			1)instantiation of obj
+			2)wiring the object
+			3)configuration object
+			4)destroying object 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
